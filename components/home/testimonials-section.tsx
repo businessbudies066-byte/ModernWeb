@@ -4,22 +4,23 @@ import { Quote } from "lucide-react"
 const testimonials = [
   {
     quote:
-      "ModernWeb Solutions transformed our online presence completely. Their AI chatbot increased our customer engagement by 300%.",
-    author: "Sarah Johnson",
-    role: "CEO, TechStart Inc.",
+      "ModernWeb Solutions transformed our online presence completely. Their marketing team increased our customer engagement by 300%.",
+    author: "Ashvini Sharma",
+    role: "Manager, Chanakya News India Rajasthan",
   },
   {
     quote:
       "The team delivered a stunning website that perfectly captures our brand. Our conversion rates have never been better.",
-    author: "Michael Chen",
-    role: "Founder, GrowthLab",
+    author: "Rohit Choudhary",
+    role: "Owner, Cafe",
   },
   {
     quote:
-      "Their digital marketing expertise helped us reach new markets we never thought possible. Highly recommended!",
-    author: "Emily Rodriguez",
-    role: "Marketing Director, ScaleUp Co.",
-  },
+      "The team helped us to get a website and an AI agent which helped us in several ways from booking appointments online to managing customer queries efficiently.",
+    author: "Arnav Saini",
+    role: "Owner, Salon",
+  }
+
 ]
 
 export function TestimonialsSection() {

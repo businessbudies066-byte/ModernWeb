@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, Phone, MapPin, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Instagram, Facebook } from "lucide-react"
 
 const footerNavigation = {
   services: [
@@ -53,6 +53,16 @@ export function Footer() {
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Instagram className="h-5 w-5" />
+              </Link>
+
+              <Link
+                href="https://www.facebook.com/profile.php?id=61585505602412"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ModernWeb Facebook"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+              <Facebook className="h-5 w-5" />
               </Link>
             </div>
           </div>
